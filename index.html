@@ -5,7 +5,256 @@
    <meta charset="UTF-8">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
    <title>Document</title>
- <link rel="stylesheet" href="style.css">
+ <style>/*
+   * Prefixed by https://autoprefixer.github.io
+   * PostCSS: v8.4.14,
+   * Autoprefixer: v10.4.7
+   * Browsers: last 4 version
+   */
+   
+   * {
+            margin: 0;
+            padding: 0;
+   
+         }
+   
+         main {
+            background-color: blueviolet;
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex;
+            -webkit-box-pack: center;
+                -ms-flex-pack: center;
+                    justify-content: center;
+            -webkit-box-align: center;
+                -ms-flex-align: center;
+                    align-items: center;
+            color: azure;
+            height: 5vh;
+         }
+   
+         nav {
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex;
+            -webkit-box-pack: center;
+                -ms-flex-pack: center;
+                    justify-content: center;
+            -webkit-box-align: center;
+                -ms-flex-align: center;
+                    align-items: center;
+   
+            margin: auto;
+            gap: 40px;
+            position: sticky;
+         }
+   
+   
+         input {
+            padding: 11px;
+            width: 350px;
+            background: transparent;
+            font-size: 18px;
+            border: 1pxsolid grey;
+            border-radius: 20px 0px 0px 20px;
+   
+   
+         }
+   
+         .card {
+            margin-left: 2.5%;
+            width: 95%;
+            height: 300px;
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex;
+            border: 2px solid white;
+            border-radius: 10px;
+          /*  overflow-x: auto;
+            position: relative;*/
+          
+         }
+   
+         .card>img {
+            width: 100%;
+            height: 100%;
+            -o-object-fit: cover;
+               object-fit: cover;
+            -ms-flex-negative: 0;
+                flex-shrink: 0;
+            position: sticky;
+            left: 0;
+            
+         }
+   
+         .first {
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex;
+            margin: auto;
+            position: sticky;
+            margin-bottom: 50px;
+         }
+   
+         .hea1 {
+            margin-top: 40px;
+            margin-left: 30px;
+            margin-right: 30px;
+         }
+   
+         .hea2 {
+            margin-top: 20px;
+            margin-left: 30px;
+            margin-right: 30px;
+         }
+   
+         .hea3 {
+            margin-top: 40px;
+            margin-left: 30px;
+            margin-right: 30px;
+         }
+   
+         .hea4 {
+            margin-top: 40px;
+            margin-left: 30px;
+            margin-right: 30px;
+         }
+   
+   
+         .age {
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex;
+            margin: auto;
+            margin-left: 30px;
+            margin-right: 30px;
+         }
+   
+         .peanut {
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex;
+            margin: auto;
+            margin-left: 30px;
+            margin-right: 30px;
+            margin-top: 40px;
+         }
+   
+         .offer {
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex;
+            margin: auto;
+            margin-top: 30px;
+         }
+   
+         .hea5 {
+            margin-top: 40px;
+            margin-left: 30px;
+            margin-right: 30px;
+         }
+   
+         .cont {
+            position: relative;
+            width: 30%;
+            height: 120px;
+            border: 1px solid rgba(128, 128, 128, 0.643);
+            justify-items: center;
+            -webkit-box-align: center;
+                -ms-flex-align: center;
+                    align-items: center;
+            margin-left: 30px;
+         }
+   
+         .cont1 {
+   
+            width: 30%;
+            height: 120px;
+            border: 1px solid rgba(128, 128, 128, 0.643);
+   
+            margin-left: 30px;
+         }
+   
+         .cont2 {
+   
+            width: 30%;
+            height: 120px;
+            border: 1px solid rgba(128, 128, 128, 0.643);
+   
+            margin-left: 30px;
+         }
+   
+         .shippin {
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex;
+            margin: auto;
+            margin-top: 30px;
+         }
+   
+         .hea6 {
+            margin-top: 30px;
+            margin-left: 30px;
+         }
+   
+         .brand {
+            width: 95%;
+            height: 400px;
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex;
+            margin: auto;
+            margin-top: 30px;
+            margin-left: 30px;
+            gap: 20px;
+         }
+   
+         h1 {
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex;
+            color: white;
+            -webkit-box-pack: center;
+                -ms-flex-pack: center;
+                    justify-content: center;
+            -webkit-box-align: center;
+                -ms-flex-align: center;
+                    align-items: center;
+            margin-top: 30px;
+         }
+   
+         footer {
+            background-color: blue;
+            width: 90%;
+            height: 350px;
+            border: 2px solid white;
+            margin-top: 5%;
+            margin-left: 5%;
+   
+         }
+   
+         .ul1 {
+            list-style: none;
+         }
+   
+         .footer1 {
+            color: white;
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex;
+            gap: 12%;
+            margin-left: 10px;
+            margin-top: 2%;
+   
+         }
+         .last1{
+            margin-top: 3%;
+            margin-left: 2.5%;
+         }
+         .last2{
+            margin-top: 3%;
+            margin-left: 2.5%;
+         }</style>
 </head>
 
 <body>
